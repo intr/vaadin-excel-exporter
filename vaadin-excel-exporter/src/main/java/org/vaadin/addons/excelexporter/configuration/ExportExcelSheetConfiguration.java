@@ -95,7 +95,7 @@ public class ExportExcelSheetConfiguration<BEANTYPE> {
 		XSSFCellStyle reportTitleStyle = workbook.createCellStyle();
 
 		XSSFFont boldFont = workbook.createFont();
-		boldFont.setBoldweight(Font.BOLDWEIGHT_BOLD);
+		boldFont.setBold(true);
 		boldFont.setFontHeightInPoints((short) 14);
 
 		reportTitleStyle.setFont(boldFont);
